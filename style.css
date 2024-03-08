@@ -1,0 +1,123 @@
+@media (min-width: 1200px) {
+    body {
+        background-color: darkgray;
+    }
+
+    .mainContainer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .info {
+        display: block !important;
+    }
+}
+
+/* ------------------------------------------------[Desktop] */
+
+
+
+
+
+@media (min-width: 768px) {
+    body {
+        background-color: lightgray;
+    }
+    
+    .mainContainer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .info {
+        display: block !important;
+    }
+}
+
+/* ------------------------------------------------[Tablet] */
+
+
+
+
+
+@media (min-width: 320px) {
+    body {
+        background-color: white;
+    }
+
+    .info {
+       display: none;
+    }
+}
+
+/* ------------------------------------------------[Mobile] */
+
+
+
+.mainContainer {
+    /* display: block; */
+}
+
+
+
+
+.navContainer {
+    background-color: #009E60;
+    border: solid #009E60;
+    color: white;
+}
+
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+nav .navbar-nav li a {
+    color: white;
+}
+
+.carouselRow {
+    display: flex;
+}
+
+.carouselContainer {
+    /* height: 20vh; */
+    width: 50%;
+}
+
+#carouselExampleAutoplaying  .carousel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.info {
+    width: 50%;
+}
+
+.nameTitle {
+    background-color: #009E60;
+    border: solid #009E60;
+    color: white;
+    padding: 20px;
+}
+
+.moreAbout {
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.paintTitle {
+    color: lightgray;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card-body a {
+    background-color: #009E60;
+    color: white;
+}
+
