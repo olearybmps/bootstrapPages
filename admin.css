@@ -1,0 +1,18 @@
+.mainContainer {
+    width: 65%;
+    margin: auto;
+}
+
+.profileName {
+    display: flex;
+    align-items: center;
+}
+
+.nameTitle {
+    padding: 20px;
+}
+
+.img-fluid {
+    height: 100px;
+}
+
